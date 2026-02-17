@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nortech | Conexión Total</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-nor">Encom</span><span class="logo-tech">@Net</span>
+                <span class="logo-tagline">Internet LowCost</span>
+            </a>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#cobertura" class="nav-link">Cobertura</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+                <a href="https://clientes.wisphub.net/" class="nav-link nav-link-autogestion">
+                    <i class="fas fa-user"></i> Portal Clientes
+                </a>
+            </nav>
+            <a href="https://wa.me/5492204086367" class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#inicio" class="mobile-nav-link">Inicio</a>
+        <a href="#servicios" class="mobile-nav-link">Servicios</a>
+        <a href="#cobertura" class="mobile-nav-link">Cobertura</a>
+        <a href="#contacto" class="mobile-nav-link">Contacto</a>
+        <a href="https://encomnet.net/" class="mobile-nav-link">
+            <i class="fas fa-user"></i> Contratacion
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">Navegá sin límites con Encom@Net</h1>
+            <p class="hero-subtitle">Conectate con todos tus dispositivos, telefono, tablet o PC a maxima velocidad</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Contratar Servicio</a>
+                <a href="https://encomnet.net/" class="btn btn-secondary">
+                    Contratacion <i class="fas fa-user"></i>
+                </a>
+            </div>
+        </div>
+        <div class="whatsapp-banner">
+            <div class="whatsapp-banner-content">
+                <i class="fab fa-whatsapp whatsapp-icon"></i>
+                <div class="whatsapp-text">
+                    <span class="whatsapp-label">Nuevo canal de comunicación</span>
+                    <a href="https://wa.me/5492204086367" class="whatsapp-number" target="_blank">220 408-6367</a>
+                </div>
+            </div>
+            <span class="whatsapp-description">Para ventas, administracion y soporte</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-network-wired feature-icon"></i>
+                    <span class="feature-text">Fibra Óptica hasta tu Hogar</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-wifi feature-icon"></i>
+                    <span class="feature-text">Internet inalámbricas Wi-Fi</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-comments feature-icon"></i>
+                    <span class="feature-text">Atención Personalizada</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user feature-icon"></i>
+                    <span class="feature-text">Portal clientes</span>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="services-header">
+                <h2 class="section-title">Servicios</h2>
+                <a href="#contacto" class="btn btn-outline">
+                    Contratar servicio <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="services-grid">
+                <div class="service-card service-card-blue">
+                    <i class="fas fa-home service-card-icon"></i>
+                    <h3 class="service-card-title">Internet Residencial</h3>
+                    <p class="service-card-text">Internet Veloz y Estable para tu Hogar. Contamos con conexiones Internet por Radioenlace inalámbricas Wi-Fi o por fibra óptica según disponibilidad. Navegá, mirá streaming, juga online y trabajá sin cortes.</p>
+                </div>
+                <div class="service-card service-card-image">
+                    <img src="images/autogestion.jpg" alt="Autogestión" class="service-card-bg">
+                    <div class="service-card-overlay">
+                        <span class="service-card-badge">Contratra</span>
+                    </div>
+                </div>
+                <div class="service-card service-card-white">
+                    <h3 class="service-card-title-dark">Servicios de Conectividad Corporativa</h3>
+                    <p class="service-card-text-dark">Soluciones dedicadas para emprendedores, con mayor estabilidad, prioridad de tráfico y soporte técnico profesional. Ideal para negocios que necesitan una conexión garantizada.</p>
+                    <i class="fas fa-building service-card-icon-dark"></i>
+                </div>
+            </div>
+            <div class="service-banner">
+                <img src="images/internet-hogar.jpg" alt="Internet para tu hogar" class="service-banner-bg">
+                <div class="service-banner-overlay">
+                    <span class="service-banner-text">Internet para tu Hogar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section class="coverage" id="cobertura">
+        <canvas id="coverageCanvas"></canvas>
+        <div class="coverage-content">
+            <h2 class="coverage-title">Cobertura</h2>
+            <p class="coverage-text">Brindamos servicio en zona seleccionada de MERLO.</p>
+            <div class="coverage-zones">
+                <span class="zone">Merlo Norte</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="contact-title">Estamos a<br>tu disposición</h2>
+                    <p class="contact-text">¿Necesitás mejorar la comunicación de tu hogar, negocio o contratar una solución digital? Completá el formulario y nuestro equipo se pondrá en contacto</p>
+                    <div class="contact-phones">
+                        <a href="tel:220 408-6367" class="contact-phone">
+                            <i class="fas fa-phone-alt"></i> 220 408-6367
+                        </a>
+                        <a href="https://wa.me/5491133606907" class="contact-phone" target="_blank">
+                            <i class="fab fa-whatsapp"></i> 220 408-6367
+                        </a>
+                    </div>
+                    <div class="contact-illustration">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Solicitud de Servicio</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="servicio">Servicio</label>
+                                <select id="servicio" name="servicio" required>
+                                    <option value="residencial">Internet Residencial</option>
+                                    <option value="empresas">Internet Empresas</option>
+                                    <option value="dedicado">Internet Dedicado</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="localidad">Localidad</label>
+                                <input type="text" id="localidad" name="localidad" placeholder="Ingrese su localidad" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group form-group-large">
+                                <label for="direccion">Dirección</label>
+                                <input type="text" id="direccion" name="direccion" placeholder="Ingrese su calle" required>
+                            </div>
+                            <div class="form-group form-group-small">
+                                <label for="altura">Altura</label>
+                                <input type="text" id="altura" name="altura" placeholder="0000" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            Quiero que me contacten <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    <span class="logo-nor">Encom@Net</span><span class="logo-tech">tech</span>
+                </a>
+                <nav class="footer-nav">
+                    <a href="#inicio" class="footer-nav-link">Inicio</a>
+                    <a href="#servicios" class="footer-nav-link">Servicios</a>
+                    <a href="#cobertura" class="footer-nav-link">Cobertura</a>
+                    <a href="#contacto" class="footer-nav-link">Contacto</a>
+                    <a href="https://ag.nortech.com.ar/" class="footer-nav-link">Autogestión</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 Encom@Net. Todos los derechos reservados.</p>
+                <div class="footer-phones">
+                    <a href="https://wa.me/5492204086367" class="footer-phone" target="_blank">
+                        <i class="fab fa-whatsapp"></i> 220 408-6367
+                    </a>
+                    <a href="tel:220 408-6367" class="footer-phone">
+                        <i class="fas fa-phone-alt"></i> 220 408-6367
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+        <span>Scroll al inicio</span>
+    </button>
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
