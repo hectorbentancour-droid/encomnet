@@ -3,7 +3,7 @@
 ## 📁 Estructura del Proyecto
 
 ```
-nortech-clone/
+encomnet/
 ├── index.html          # Página principal
 ├── css/
 │   └── style.css       # Estilos del sitio
