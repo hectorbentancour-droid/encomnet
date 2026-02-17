@@ -1,6 +1,4 @@
-# Nortech - Sitio Web Clonado
 
-Este es una réplica completa del sitio web de **Nortech**, un proveedor de servicios de internet (WISP).
 
 ## 📁 Estructura del Proyecto
 
