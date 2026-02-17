@@ -138,10 +138,3 @@ Si necesitas ayuda para personalizar el sitio, puedes:
 3. Editar el HTML para cambiar contenido
 4. Ajustar el JavaScript para modificar comportamientos
 
-## 📝 Licencia
-
-Este es un clon educativo del sitio original. Asegúrate de tener los derechos necesarios antes de usarlo comercialmente.
-
----
-
-**Creado con ❤️ para tu proyecto WISP**
